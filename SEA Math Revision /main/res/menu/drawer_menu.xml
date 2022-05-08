@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wholenumbers"
+            android:title="Whole Numbers" />
+        <item
+            android:id="@+id/nav_fractions"
+            android:title="Fractions" />
+        <item
+            android:id="@+id/nav_decimals"
+            android:title="Decimals" />
+        <item
+            android:id="@+id/nav_percent"
+            android:title="Percent" />
+        <item
+            android:id="@+id/nav_linearmeasure"
+            android:title="Linear Measure" />
+        <item
+            android:id="@+id/nav_area"
+            android:title="Area" />
+        <item
+            android:id="@+id/nav_volumeandcapacity"
+            android:title="Vol and Capacity" />
+        <item
+            android:id="@+id/nav_mass"
+            android:title="Mass" />
+        <item
+            android:id="@+id/nav_time"
+            android:title="Time" />
+        <item
+            android:id="@+id/nav_solidsandplaneshapes"
+            android:title="Solids and Shapes" />
+        <item
+            android:id="@+id/nav_symmetry"
+            android:title="Symmetry" />
+        <item
+            android:id="@+id/nav_angles"
+            android:title="Angles" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:title="Statistics" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<ImageView
+        android:src="@drawable/dialog_icon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignTop="@+id/activation_layout"
+        android:layout_alignBottom="@id/activation_layout"
+        android:layout_alignLeft="@id/activation_layout"
+        android:layout_alignRight="@id/activation_layout" />-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activation_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/intro_icon" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:text="This app was designed with the sole intention of providing a quick and easy study guide for students preparing for the Mathematics Component of the SEA Exam"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:text="Both Std 4 and 5 pupils will find this app useful"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:text="The Objectives found in the MOE's Assessment Framework 2019-2023 were used as a guide"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:text="Unfortunately, not every Objective could have been met"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:text="While this app is not meant to replace face to face teaching, it is hoped that both students and teachers will find it useful as an adjunct to classroom instructions"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="right"
+        android:paddingTop="20dp"
+        android:text="All the best. Happy Studying! - BryTech"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/accept"
+        />
+
+</LinearLayout>
+</RelativeLayout>

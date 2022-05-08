@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewBannerWholeNos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        app:adSize="BANNER"
+        app:adUnitId="@string/bannerAd" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/wholeNumbersPdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SEA Math Revision TT</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="Admob_app_id">ca-app-pub-9452044562571180~5880559323</string>
+    <!--<string name="bannerAd">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="bannerAd">ca-app-pub-9452044562571180/2847201872</string>
+    <!--<string name="interstitialAdId">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="interstitialAdId">ca-app-pub-9452044562571180/2547818976</string>
+
+    <string name="rate_dialog_title">Rate SEA Math Revision</string>
+    <string name="rate_dialog_message">If you enjoy using this app please take a moment to rate it. It won\'t take more than a second. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No Thanks</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:src="@drawable/dialog_bg"
+        android:scaleType="fitXY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignTop="@+id/activation_layout"
+        android:layout_alignBottom="@id/activation_layout"
+        android:layout_alignLeft="@id/activation_layout"
+        android:layout_alignRight="@id/activation_layout" />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activation_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:src="@drawable/logo_01" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:text="Programmed by Bryan J."
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        android:text="Content Creation by Andy J."
+        android:textSize="17dp" />
+
+
+
+
+</LinearLayout>
+</RelativeLayout>
