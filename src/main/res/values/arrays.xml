@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="custom_colors">
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000085</item>
+        <item>#0024FD</item>
+        <item>#006FF8</item>
+        <item>#00E8F2</item>
+        <item>#00E8F2</item>
+        <item>#00FF81</item>
+        <item>#00FF81</item>
+        <item>#ACF000</item>
+        <item>#C6EE00</item>
+        <item>#FFCF00</item>
+        <item>#FFCF00</item>
+        <item>#FE4700</item>
+        <item>#FD0700</item>
+        <item>#D80000</item>
+        <item>#BD0000</item>
+        <item>#570000</item>
+        <item>#0C0000</item>
+        <item>#000000</item>
+    </array>
+</resources>
